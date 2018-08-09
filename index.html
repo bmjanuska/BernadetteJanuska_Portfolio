@@ -29,7 +29,7 @@
 <body>
 
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-topnavbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,10 @@
 
 <!-- HEADER -->
 <div class="jumbotron jumbotron-fluid">
-    <h1 class="display-4">Fluid jumbotron</h1>
+    <div class="boxBorder">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <div class="circle1"></div>
+    </div>
 </div>
 <!-- END HEADER -->
 
@@ -70,136 +73,135 @@
         </div>
         <!-- bio -->
         <div class="col-sm-6 col-lg-7">
-            <div class="row">
-                <h2>Bio<h2>
-                </div>
-                <p>My name is Bernadette, but most call me Bernie. I am a graphic designer and illustrator with junior experience in front end web development. My AFK passinos are drawing little comics and doodles of daily cuteness and coming up with crazy recipes.</p>
-            </div>
-        </div>
-        <!-- END BIO -->
-
-
-        <!-- DIVIDER -->
-        <hr>
-        <!-- END DIVIDER -->
-
-
-        <!-- PORTFOLIO -->
-        <!-- GALLERY ROW 1 -->
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div clas="row">
-                    <div class="card text-white">
-                        <img class="card-img" src="assets/images/_0005_psychic.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="https://bmjanuska.github.io/psyhic_game.github.io/" class="btn btn-primary btn-block">Psychic Game</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div clas="row">
-                    <div class="card text-white">
-                        <img class="card-img" src="assets/images/_0001_forage.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="https://bmjanuska.github.io/Forest_Forager/" class="btn btn-primary btn-block">Forest Forager</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div clas="row">
-                    <div class="card text-white">
-                        <img class="card-img" src="assets/images/_0002_art.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="https://bmjanuska.github.io/ArtThroughTheAges/" class="btn btn-primary btn-block">Trivia Game</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div clas="row">
-                    <div class="card text-white">
-                        <img class="card-img" src="assets/images/_0000_gif.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="https://bmjanuska.github.io/Giftacular/" class="btn btn-primary btn-block">Giftacular</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div clas="row">
-                    <div class="card text-white">
-                        <img class="card-img" src="assets/images/_0003_train.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <a href="https://bmjanuska.github.io/Train_Schedule/" class="btn btn-primary btn-block">Train Sched</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- END PORTFOLIO -->
-
-        
-        <!-- DIVIDER -->
-        <hr>
-        <!-- END DIVIDER -->
-
-
-        <!-- SKILLS -->
-        <div class="row">
-            <div class="col-12">
-                <p>Advanced user of the Adobe Creative Suite, and familiar with HTML, CSS, Javascript, and Wordpress. Experienced with print and print production processes as well. In addition to my technical skill set, I am experienced in communicating ideas to a wide variety of audiences, collaborating with different types of teams across a company, and always welcome feedback from peers and clients alike. </p>
-            </div>
-        </div>
-        <!-- END SKILLS -->
-
-        <!-- RESUME -->
-        <!-- END RESUME -->
-
-        <!-- SOCIAL -->
-        <!-- END SOCIAL -->
-
-        <!-- DOODLES -->
-        <!-- END DOODLES --> 
-
-        <!-- CONTACT -->
-        <div class="row">
-            <h2>Contact</h2>
-        </div>
-        <hr>
-
-        <!-- FORM -->
-        <div class="row">
-            <div class="col-md-12 ">
-                <form>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 form-group">
-                            <label for="Name">Name</label>
-                            <input type="name" class="form-control" placeholder="First and Last">
-                        </div>
-                        <div class="col-sm-12 col-md-6 form-group">
-                            <label for="Email">Email address</label>
-                            <input type="email" class="form-control" placeholder="name@example.com">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 form-group">
-                            <label for="ControlTextarea1">Say Something</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What can I help you with? Looking for a collaborator?"></textarea></textarea>
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <h2>Bio</h2>
+            <br>
+            <p>My name is Bernadette, but most call me Bernie. I am a graphic designer and illustrator with junior experience in front end web development. My AFK passions are drawing little comics and doodles of daily cuteness and coming up with crazy recipes.</p>
         </div>
     </div>
+    <!-- END BIO -->
 
-    <!-- END CONTACT -->
+
+    <!-- DIVIDER -->
+    <hr>
+    <!-- END DIVIDER -->
+
+
+    <!-- PORTFOLIO -->
+    <!-- GALLERY ROW 1 -->
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div clas="row">
+                <div class="card text-white">
+                    <img class="card-img" src="assets/images/_0005_psychic.jpg" alt="Card image">
+                    <div class="card-img-overlay btn-primary">
+                        <a href="https://bmjanuska.github.io/psyhic_game.github.io/">Psychic Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div clas="row">
+                <div class="card text-white">
+                    <img class="card-img" src="assets/images/_0001_forage.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <a href="https://bmjanuska.github.io/Forest_Forager/" class="btn btn-primary btn-block">Forest Forager</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div clas="row">
+                <div class="card text-white">
+                    <img class="card-img" src="assets/images/_0002_art.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <a href="https://bmjanuska.github.io/ArtThroughTheAges/" class="btn btn-primary btn-block">Trivia Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div clas="row">
+                <div class="card text-white">
+                    <img class="card-img" src="assets/images/_0000_gif.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <a href="https://bmjanuska.github.io/Giftacular/" class="btn btn-primary btn-block">Giftacular</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div clas="row">
+                <div class="card text-white">
+                    <img class="card-img" src="assets/images/_0003_train.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <a href="https://bmjanuska.github.io/Train_Schedule/" class="btn btn-primary btn-block">Train Sched</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- END PORTFOLIO -->
+
+
+    <!-- DIVIDER -->
+    <hr>
+    <!-- END DIVIDER -->
+
+
+    <!-- SKILLS -->
+    <div class="row">
+        <div class="col-12">
+            <p>Advanced user of the Adobe Creative Suite, and familiar with HTML, CSS, Javascript, and Wordpress. Experienced with print and print production processes as well. In addition to my technical skill set, I am experienced in communicating ideas to a wide variety of audiences, collaborating with different types of teams across a company, and always welcome feedback from peers and clients alike. </p>
+        </div>
+    </div>
+    <!-- END SKILLS -->
+
+    <!-- RESUME -->
+    <!-- END RESUME -->
+
+    <!-- SOCIAL -->
+    <!-- END SOCIAL -->
+
+    <!-- DOODLES -->
+    <!-- END DOODLES --> 
+
+    <!-- CONTACT -->
+    <div class="row">
+        <h2>Contact</h2>
+    </div>
+    <hr>
+
+    <!-- FORM -->
+    <div class="row">
+        <div class="col-md-12 ">
+            <form>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 form-group">
+                        <label for="Name">Name</label>
+                        <input type="name" class="form-control" placeholder="First and Last">
+                    </div>
+                    <div class="col-sm-12 col-md-6 form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 form-group">
+                        <label for="ControlTextarea1">Say Something</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What can I help you with? Looking for a collaborator?"></textarea></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- END CONTACT -->
 
 
 

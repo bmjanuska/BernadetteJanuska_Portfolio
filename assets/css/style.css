@@ -1,9 +1,55 @@
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
+    padding: 5rem ;
     background-color: #e9ecef;
-    border-radius: .3rem;
-    min-height: 550px;
+    
+    /* Set Height */
+    min-height: 600px;
+
+    /* Parallax effect */
+    /* The image used */
+     background-image: url("../images/tumblr_oppuazgGzv1qegkvoo1_1280.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*.colorOverlay{
+  z-index: 1000;
+  background-color: -moz-linear-gradient(180deg, #f57a57 32%, #fd9757 68%, opacity:0.6;);
+  background-color: -webkit-linear-gradient(180deg, #f57a57 32%, #fd9757 68%, opacity:0.6;);
+  background-color: linear-gradient(-180deg, #f57a57 32%, #fd9757 68%, vopacity:0.6;);
+
+}*/
+
+
+.circle1 {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: 0;
+  opacity: 0.3;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -254px;
+  left: -255px;
+  animation: circle-ani1 10s infinite;
+  animation-timing-function: linear;
+}
+
+
+
+
+.boxBorder{
+    border-style: solid;
+    border-width: 5px;
+    width: 100%;
+    min-height: 400px;
+    border-color: #fff;
+
 }
 
 .row {
@@ -132,7 +178,6 @@ img {
 btn {
     padding: 10px 30px;
     color:#fff;
-    margin: 10px 0 auto;
     background-color: #F2A663;
     border-width: 0px;
     border-radius: 5px;
@@ -142,6 +187,21 @@ btn {
 
 button:hover {
     background-color: #F25D50;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F2A663;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+    opacity:1;
+
+}
+
+
+.btn-primary:hover {
+    opacity: 0;
 }
 
 /* ============= FORM ============ */
@@ -208,7 +268,6 @@ border-radius: 0px
 .card-img {
     width: 100%;
     border-radius: 0;
-    margin: 10px 0;
 }
 
 .card {
