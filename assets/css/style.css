@@ -1,5 +1,5 @@
 
-/* ========= HEADING ========== */
+/* ========= INTRO JUMBO PARALLAX ========== */
 .jumbotron {
     padding: 5rem ;
     background-color: #e9ecef;
@@ -7,9 +7,8 @@
     /* Set Height */
     min-height: 600px;
 
-    background: -moz-linear-gradient(-45deg, #ffe0e3 32%, #a7e0e5 68%);
-    background: -webkit-linear-gradient(-45deg, #ffe0e3 32%, #a7e0e5 68%);
-    background: linear-gradient(135deg, #ffe0e3 32%, #a7e0e5 68%);
+    background-image: url("../images/head_bg.jpg");
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -19,7 +18,222 @@
 
 }
 
-/*--------- PORTFOLIO JUMBO --------*/
+
+@keyframes sparkle-ani1 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  20% {
+    transform: translateX(20px) translateY(-10px);
+  }
+  40% {
+    transform: translateX(-10px) translateY(-30px);
+  }
+  60% {
+    transform: translateX(-20px) translateY(-10px);
+  }
+  80% {
+    transform: translateX(10px) translateY(10px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+@keyframes sparkle-ani2 {
+  0% {
+    transform: translateX(20px) translateY(0px);
+  }
+  20% {
+    transform: translateX(-10px) translateY(20px);
+  }
+  40% {
+    transform: translateX(0px) translateY(-10px);
+  }
+  60% {
+    transform: translateX(20px) translateY(0px);
+  }
+  80% {
+    transform: translateX(-10px) translateY(20px);
+  }
+  100% {
+    transform: translateX(20px) translateY(0px);
+  }
+}
+@keyframes sparkle-ani3 {
+  0% {
+    transform: translateX(-30px) translateY(10px);
+  }
+  20% {
+    transform: translateX(-10px) translateY(0px);
+  }
+  40% {
+    transform: translateX(0px) translateY(-20px);
+  }
+  60% {
+    transform: translateX(20px) translateY(10px);
+  }
+  80% {
+    transform: translateX(15px) translateY(-20px);
+  }
+  100% {
+    transform: translateX(-30px) translateY(10px);
+  }
+}
+
+.sparkle1 {
+  width: 400px;
+  height: 400px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -214px;
+  left: -69px;
+  animation: sparkle-ani2 10s infinite;
+  animation-timing-function: linear;
+}
+.cir1 {
+  width: 100px;
+  height: 100px;
+  border: solid 2px white;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -114px;
+  left: 400px;
+  animation: sparkle-ani2 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle2 {
+  width: 120px;
+  height: 120px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 100%;
+  bottom: 214px;
+  left: -69px;
+  animation: sparkle-ani2 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle3 {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.6;
+  position: absolute;
+  border-radius: 100%;
+  top: 183px;
+  left: 78px;
+  animation: sparkle-ani3 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkl4 {
+  width: 220px;
+  height: 220px;
+  background-color: transparent;
+  border: solid 2px white;
+  opacity: 0.6;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -100px;
+  left: 100px;
+  animation: sparkle-ani3 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle5 {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 100%;
+  bottom: 30px;
+  left: 298px;
+  animation: sparkle-ani2 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle6 {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  border: solid 2px white;
+  opacity: 0.6;
+  position: absolute;
+  border-radius: 100%;
+  top: -150px;
+  right: -80px;
+  animation: sparkle-ani3 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle7 {
+  width: 165px;
+  height: 165px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.45;
+  position: absolute;
+  border-radius: 100%;
+  top: 71px;
+  right: -106px;
+  animation: sparkle-ani1 10s infinite;
+  animation-timing-function: linear;
+}
+
+.sparkle8 {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/sparkle-01.svg");
+  border: 0;
+  opacity: 0.7;
+  position: absolute;
+  border-radius: 100%;
+  top: 183px;
+  right: 78px;
+  animation: sparkle-ani2 10s infinite;
+  animation-timing-function: linear;
+}
+
+
+
+
+  .moon {
+    top: 65px;
+    left: 65px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.4;
+    box-shadow: 20px 4px 0px 15px #ffffff;
+}
+
+
+
+.boxBorder{
+    border-style: solid;
+    border-width: 3px;
+    width: 100%;
+    min-height: 400px;
+    border-color: #fff;
+    padding: 10rem 0;
+}
+
+/* ========= END INTO JUMBO PARALLAX ========== */
+
+
+
+/* ========= PORTFOLIO JUMBO PARALLAX ========== */
 .jumbotron2 {
     padding: 5rem ;
     background-color: #e9ecef;
@@ -27,7 +241,7 @@
     /* Set Height */
     min-height: 250px;
 
-    background-image: url("../images/tumblr_oppuazgGzv1qegkvoo1_1280.jpg");
+    background-image: url("../images/port_bg.jpg");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -45,14 +259,17 @@
     padding: 5rem 0;
 }
 
-/*--------- PORTFOLIO JUMBO --------*/
+/* ========= END JUMBO PARALLAX ========== */
+
+
+/* ========= SKILLS JUMBO PARALLAX ========== */
 .jumbotron3 {
     background-color: #e9ecef;
     
     /* Set Height */
 /*    min-height: 400px;
 */
-background-image: url("../images/tumblr_oppuazgGzv1qegkvoo1_1280.jpg");
+    background-image: url("../images/sherbert_bg.jpg");
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -62,9 +279,8 @@ background-size: cover;
 
 }
 
+/* ========= END SKILLS JUMBO PARALLAX ========== */
 
-
-/* ======== END HEADING ======== */
 
 
 .container_inner {
@@ -76,67 +292,9 @@ background-size: cover;
 
 
 
-/*.colorOverlay{
-  z-index: 1000;
-  background-color: -moz-linear-gradient(180deg, #f57a57 32%, #fd9757 68%, opacity:0.6;);
-  background-color: -webkit-linear-gradient(180deg, #f57a57 32%, #fd9757 68%, opacity:0.6;);
-  background-color: linear-gradient(-180deg, #f57a57 32%, #fd9757 68%, vopacity:0.6;);
-
-  }*/
 
 
-  .circle1 {
-      width: 500px;
-      height: 500px;
-      background-color: white;
-      border: 0;
-      opacity: 0.3;
-      position: absolute;
-      border-radius: 100%;
-      bottom: -254px;
-      left: -255px;
-      animation: circle-ani1 10s infinite;
-      animation-timing-function: linear;
-  }
-
-  .circle2 {
-      width: 100px;
-      height: 100px;
-      background-color: white;
-      border: 0;
-      opacity: 0.5;
-      position: absolute;
-      border-radius: 100%;
-      bottom: 15px;
-      left: 255px;
-      animation: circle-ani1 10s infinite;
-      animation-timing-function: linear;
-  }
-
-  .moon {
-    top: 65px;
-    left: 65px;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    opacity: 0.4;
-    box-shadow: 20px 4px 0px 15px #ffffff;
-}
-
-
-
-.boxBorder{
-    border-style: solid;
-    border-width: 5px;
-    width: 100%;
-    min-height: 400px;
-    border-color: #fff;
-    padding: 10rem 0;
-}
-
-/* ========= END HEADER ========== */
-
+ 
 .row {
     margin: 25px 0px;
 }
