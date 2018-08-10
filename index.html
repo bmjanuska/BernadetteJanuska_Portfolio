@@ -8,6 +8,8 @@
 
     <title>Bernadette Januska's Portfolio</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Varela+Round" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -29,7 +31,7 @@
 <body>
 
     <!-- NAVIGATION -->
-    <nav class="navbar fixed-topnavbar-expand-lg navbar-light bg-light">
+<!--     <nav class="navbar fixed-topnavbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,12 +52,13 @@
         </li>
     </ul>
 </div>
-</nav>
+</nav> -->
 
 <!-- HEADER -->
 <div class="jumbotron jumbotron-fluid">
     <div class="boxBorder">
-        <h1 class="display-4">Hello!</h1>
+        <h1 class="display-3">Code Portfolio</h1>
+        <h2 class="display-4 text-center">A collection of coding exploration</h2>
         <div class="sparkle1"></div>
         <div class="cir1"></div>
         <div class="sparkle2"></div>
@@ -81,7 +84,7 @@
         </div>
         <!-- bio -->
         <div class="col-sm-6 col-lg-7">
-            <h2>Bio</h2>
+            <h2 class="gradientText">Bio</h2>
             <br>
             <p>My name is Bernadette, but most call me Bernie. I am a graphic designer and illustrator with junior experience in front end web development. My AFK passions are drawing little comics and doodles of daily cuteness and coming up with crazy recipes.</p>
         </div>
@@ -96,7 +99,7 @@
 <!-- PORTFOLIO PARALLAX TITLE -->
 <div class="jumbotron2 jumbotron-fluid">
     <div class="boxBorder2">
-        <h1 class="display-4">Work</h1>
+        <h1 class="whiteText text-center">Work</h1>
         <div class="circle1"></div>
         <div class="circle2"></div>
         <div class="circle3"></div>
@@ -187,29 +190,20 @@
 
 
 <!-- SKILLS -->
-<div class="jumbotron3">
+<!-- <div class="jumbotron3">
     <div class="container_inner">
         <div class="row align-items-center">
-            <div class="col-sm-4 align-items-center">
-                <i class="fas fa-code fa-8x"></i>
-                <br>
-                <p>Advanced user of the Adobe Creative Suite, and familiar with HTML, CSS, Javascript, and Wordpress. Experienced with print and print production processes as well. </p>
+            <div class="col-6 align-items-center">
+                <i class="fas fa-code fa-8x"></i> 
             </div>
-            <div class="col-sm-4 align-items-center">
-                <i class="fas fa-palette fa-8x"></i>
-            </div>
-            <div class="col-sm-4 align-items-center">
-                <i class="fas fa-code fa-8x"></i>
+            <div class="col-6">
+                <p>Advanced user of the Adobe Creative Suite, and familiar with HTML, CSS, Javascript, and Wordpress. Experienced with print and print production processes as well. In addition to my technical skill set, I am experienced in communicating ideas to a wide variety of audiences, collaborating with different types of teams across a company, and always welcome feedback from peers and clients alike. </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <p>In addition to my technical skill set, I am experienced in communicating ideas to a wide variety of audiences, collaborating with different types of teams across a company, and always welcome feedback from peers and clients alike. </p>
-            </div>
-        </div>
+
     </div>
 </div>
-</div>
+</div> -->
 <!-- END SKILLS -->
 
 <!-- RESUME -->
@@ -222,33 +216,36 @@
 <!-- END DOODLES --> 
 
 <!-- CONTACT -->
-<div class="container">
-    <div class="row">
-        <h2>Contact</h2>
-    </div>
-    <hr>
 
-    <!-- FORM -->
-    <div class="row">
-        <div class="col-md-12 ">
-            <form>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 form-group">
-                        <label for="Name">Name</label>
-                        <input type="name" class="form-control" placeholder="First and Last">
+<div class="jumbotron3">
+    <div class="container_inner">
+        <div class="row">
+            <h2 class="whiteText">Contact</h2>
+        </div>
+        <hr>
+
+        <!-- FORM -->
+        <div class="row">
+            <div class="col-md-12 ">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 form-group">
+                            <label for="Name">Name</label>
+                            <input type="name" class="form-control" placeholder="First and Last">
+                        </div>
+                        <div class="col-sm-12 col-md-6 form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" class="whiteText" placeholder="name@example.com">
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 form-group">
-                        <label for="Email">Email address</label>
-                        <input type="email" class="form-control" placeholder="name@example.com">
+                    <div class="row">
+                        <div class="col-12 form-group">
+                            <label for="ControlTextarea1">Say Something</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What can I help you with? Looking for a collaborator?"></textarea></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 form-group">
-                        <label for="ControlTextarea1">Say Something</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What can I help you with? Looking for a collaborator?"></textarea></textarea>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 </div>
