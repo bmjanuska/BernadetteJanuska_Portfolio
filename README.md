@@ -15,9 +15,10 @@ Thank you for stopping by.
 
 
 
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0000_gif.jpg)
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0001_forage.jpg)
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0002_art.jpg)
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0003_train.jpg)
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0000_gif.jpg)
-![alt-text]({{https://bmjanuska.github.io/BernadetteJanuska_Portfolio/}}/assets/images/_0000_gif.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0000_gif.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0001_forage.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0002_art.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0003_train.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0000_gif.jpg)
+![alt-text](https://bmjanuska.github.io/BernadetteJanuska_Portfolio/assets/images/_0000_gif.jpg)
+
